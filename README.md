@@ -1,35 +1,15 @@
-| Supported Targets | ESP32 | ESP32-C2 | ESP32-C3 | ESP32-C6 | ESP32-H2 | ESP32-S2 | ESP32-S3 |
-| ----------------- | ----- | -------- | -------- | -------- | -------- | -------- | -------- |
+| Supported Targets | M5Stack BASIC V2.7 (ESP32) |
+| ----------------- | -------------------------- |
 
-# _Sample project_
+| English　| 
+| -------- | 
+# M5 Bluetooth Radio Adapter for Ham Radio
 
-(See the README.md file in the upper level 'examples' directory for more information about examples.)
+In this repository, we aim to connect a Bluetooth headset to the MIC/SP terminal of a transceiver using the M5Stack Basic and a self-made WM8731 expansion board.
+The project is still in its early stages, and we are currently creating both the hardware and software while testing the implementation.
 
-This is the simplest buildable example. The example is used by command `idf.py create-project`
-that copies the project to user specified path and set it's name. For more information follow the [docs page](https://docs.espressif.com/projects/esp-idf/en/latest/api-guides/build-system.html#start-a-new-project)
-
-
-
-## How to use example
-We encourage the users to use the example as a template for the new projects.
-A recommended way is to follow the instructions on a [docs page](https://docs.espressif.com/projects/esp-idf/en/latest/api-guides/build-system.html#start-a-new-project).
-
-## Example folder contents
-
-The project **sample_project** contains one source file in C language [main.c](main/main.c). The file is located in folder [main](main).
-
-ESP-IDF projects are built using CMake. The project build configuration is contained in `CMakeLists.txt`
-files that provide set of directives and instructions describing the project's source files and targets
-(executable, library, or both). 
-
-Below is short explanation of remaining files in the project folder.
-
-```
-├── CMakeLists.txt
-├── main
-│   ├── CMakeLists.txt
-│   └── main.c
-└── README.md                  This is the file you are currently reading
-```
-Additionally, the sample project contains Makefile and component.mk files, used for the legacy Make based build system. 
-They are not used or needed when building with CMake and idf.py.
+| 日本語　| 
+| ------ | 
+# アマチュア無線のための M5 Bluetooth 無線機アダプター
+このレポジトリでは M5Stack Basic と 自作WM8731拡張ボードを使いBluetooth ヘッドセットをトランシーバーのMIC/SP端子に接続することを目指します。
+プロジェクトはまだ初期段階で現在はテスト実装を行いながらハードウェアとソフトウェアの両面を作成しています。
